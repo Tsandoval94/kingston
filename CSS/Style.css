@@ -24,7 +24,7 @@ body {
 
 /* Estilos para el header  */
 .header {
-    background-image: url("/Assets/main-header.png");
+    background-image: url(".../Assets/main-header.png");
     background-size: cover;
     background-position: center;
     width: auto;
