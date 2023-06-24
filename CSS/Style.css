@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+
+
+:root {
+    font-size: 24px;
+    ---fondo-primario: #394640;
+    ---fondo-secundario: #b08047;
+    ---Fondo-contenedor: #D9D9D9;
+    ---Texto-primario: #000000;
+    ---Texto-Secundario: #fffefe;
+
+}
+
+body {
+    background-color: var(---Texto-Secundario) font-family;
+    'Urbanist',
+    sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header  */
+.header {
+    background-image: url("/Assets/main-header.png");
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 530px;
+    padding: 40px;
+}
+
+.navbar-container {
+    background-color: #394640d4;
+    padding: 10px;
+    height: 30px;
+    width: auto;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar a:hover {
+    background-color: #e0a979;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.navbar ul li {
+    padding: 0;
+    margin-right: 60px;
+    margin-left: 60px;
+    align-items: center;
+
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.nav ul li a:hover {
+    color: #b08047;
+}
+
+.header-content-container {
+    background: #d9d9d9cd;
+    padding: 20;
+    margin: 0% auto;
+    width: 1000px;
+    height: 450px;
+    transform: translate(0%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Header-1 img {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.Header-2 {
+
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    transform: translate(0%, -80%);
+
+}
+
+/* Terminan los Estios de Header */
+
+/* comienzan estilos de Main */
+
+main {
+    margin-top: 20px;
+}
+
+.tittle-1 {
+    font-family: 'Hurricane', cursive;
+    font-size: larger;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    width: 75%;
+    background-color: #b08047;
+    justify-items: center;
+    margin: 20px auto;
+}
+
+.contenedor-proyecto {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.item {
+    width: calc(50% - 25px);
+    margin-bottom: 50px;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.item img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 2px 2px 0 0;
+}
+
+.item h2 {
+    margin: 0;
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+}
+
+.item p {
+    margin: 0%;
+    font-size: medium;
+    justify-content: center;
+    text-align: center;
+}
+
+.info.proyecto {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info.proyecto p {
+    margin-bottom: 5px;
+}
+
+.info.proyecto button {
+    background-color: #b08047;
+    font-family: 'Urbanist', sans-serif;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.info.proyecto button:hover {
+    background-color: #e0a979;
+}
+
+/* termina Configuración de Propiedades */
+
+/* comienza configuración de footer */
+
+.social {
+    text-align: center;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #b08047;
+    border-radius: 50%;
+}
+
+.social a:hover {
+    background-color: #e0a979;
+}
+
+.social i {
+    font-size: 20px;
+}
+
+footer {
+    background-color: var(---fondo-primario);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #fffdfd;
+}
+
+footer p {
+    margin top: 20px;
+}
+
+/* Confirguración de Contact Us */
+
+.tittle-3 {
+    font-family: 'Hurricane', cursive;
+    font: size 43.2px;
+    ;
+    text-align: center;
+}
+
+.help-tittle {
+    font-size: larger;
+    text-align: left;
+    font-weight: 600;
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.contact-container {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.listado li {
+    margin-right: 10px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.formulario {
+    margin-top: 0%;
+    margin-bottom: 20;
+    margin-left: 0;
+    margin-right: 0;
+    align-content: center;
+
+}
+
+label {
+    font-size: medium;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contenedor-del-boton {
+    text-align: center;
+}
+
+button[type="submit"] {
+    background-color: #b08047;
+    font-family: 'Urbanist', sans-serif;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.information {
+    text-align: left;
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    align-items: center;
+}
+
+h5 {
+    font-size: 28.8px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Comienza el About Us Formato */
+
+h6 {
+    font-family: 'Hurricane', cursive;
+    font-size: 43.8px;
+    text-align: center;
+    margin: 0 auto
+}
+
+.info-about {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 38px;
+    background-color: var(---fondo-primario);
+    color: white;
+    align-content: center;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+.contenedor-us {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.contenedor-people {
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+    width: 30%;
+    max-width: 300px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.contenedor-people img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
